@@ -17,14 +17,14 @@ This document outlines the architecture and components of a distributed messagin
 
 ## Diagram
 
-![System Design](./diagrams/whatsapp.png)
+![System Design](./design/diagrams/whatsapp.png)
 
 ---
 
 ## Next Sections
 
-- [architecture.md](./architecture.md)
-- [requirements.md](./requirements.md)
-- [delivery_strategy.md](./delivery_strategy.md)
-- [tradeoffs.md](./tradeoffs.md)
-- [tech_stack.md](./tech_stack.md)
+- [architecture.md](./design/architecture.md)
+- [requirements.md](./design/requirements.md)
+- [delivery_strategy.md](./design/delivery_strategy.md)
+- [tradeoffs.md](./design/tradeoffs.md)
+- [tech_stack.md](./design/tech_stack.md)
