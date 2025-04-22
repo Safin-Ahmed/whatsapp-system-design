@@ -1,30 +1,53 @@
 # WhatsApp-Scale Messaging System Design
 
-This document outlines the architecture and components of a distributed messaging system designed to scale to **1 billion daily active users**, support **real-time chat**, **media messaging**, and **multi-device delivery** with durable offline sync.
+This repository contains the architecture and design of a real-time messaging system inspired
+by WhatsApp, capable of supporting 1 billion daily active users.
 
 ---
 
-## Design Modules
+## Features
 
-1. **Create Chat**
-2. **Send & Receive Message**
-3. **Send & Receive Attachments**
-4. **Handle Multiple Clients per User**
-5. **Redis Cluster as Pub/Sub Backplane with Socket**
-6. **Durable Offline Sync**
+1. Real time group messaging
+2. Offline delivery with durable Inbox
+3. Multi-device sync (max 3 clients per user)
+4. Redis Cluster Pub/Sub as WebSocket backplane
+5. Media sharing via S3 pre-signed URLs
+6. Scalable, event-driven architecture
 
 ---
 
-## Diagram
+## System Diagram
 
 ![System Design](./design/diagrams/whatsapp.png)
 
 ---
 
-## Next Sections
+## Why I Built This
+
+I'm Safin - a full-stack software engineer who loves building at scale. I designed this WhatsApp-scale messaging system from scratch to demonstrate how I think about distributed systems, trade-offs, durability, and real-time infrastructure.
+
+This project reflects how I approach engineering:
+
+- Thoughtfully scoped
+- Deeply reasoned
+- Pracitcal in trade-offs
+- Ready to scale
+
+Feel free to connect or reach out:
+safin.ahmed2000@gmail.com
+[LinkedIn](https://www.linkedin.com/in/safin-ahmed/)
+[X](https://x.com/Ahmed2000Safin)
+
+## Documentation
 
 - [architecture.md](./design/architecture.md)
 - [requirements.md](./design/requirements.md)
 - [delivery_strategy.md](./design/delivery_strategy.md)
 - [tradeoffs.md](./design/tradeoffs.md)
 - [tech_stack.md](./design/tech_stack.md)
+
+## What's Next
+
+The system design is complete and published. I'm currently working on the implementation, with updates to follow.
+
+Star ⭐️ the repo or follow me to stay updated.
